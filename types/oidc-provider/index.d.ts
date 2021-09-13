@@ -1,4 +1,4 @@
-// Type definitions for oidc-provider 7.6
+// Type definitions for oidc-provider 7.7
 // Project: https://github.com/panva/node-oidc-provider
 // Definitions by: Filip Skokan <https://github.com/panva>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
