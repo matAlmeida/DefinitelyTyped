@@ -369,7 +369,7 @@ const provider = new Provider('https://op.example.com', {
             idFactory() {
                 return 'foo';
             },
-            secretFactory() {
+            secretFactory: async function () {
                 return 'foo';
             },
         },

@@ -979,7 +979,7 @@ export interface Configuration {
                 [key: string]: (ctx: KoaContextWithOIDC, metadata: ClientMetadata) => CanBePromise<undefined | void>; // tslint:disable-line:void-return
             } | undefined;
             idFactory?: ((ctx: KoaContextWithOIDC) => string) | undefined;
-            secretFactory?: ((ctx: KoaContextWithOIDC) => string) | undefined;
+            secretFactory?: ((ctx: KoaContextWithOIDC) => Promise<string> | string) | undefined;
         } | undefined;
 
         registrationManagement?: {
